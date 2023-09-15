@@ -1,0 +1,47 @@
+.fist{
+    background-color: rgba(33,33,33,.75);
+    width: 250px;
+}
+.fist-2{
+    background-color: rgba(33,33,33,.75);
+    width: 300px;
+}
+.tabl{
+    background-color: #F2F2F2;
+    height: 300px;
+    color: black;
+}
+.ford{
+    height: 100px;
+}
+
+
+
+
+@media (max-width:575px){
+    .spon{
+        display: none;
+    }
+    .im{
+        font-size: 2px;
+        font-weight: lighter;
+        width: 150px;
+    }
+    li.popular img{ 
+        display: none;
+        padding-left:-800px;
+        padding-right: 800px;
+    }
+    .where{
+        margin-left: -400px;
+        margin-right: 400px;
+    }
+}
+
+
+
+
+
+
+
+

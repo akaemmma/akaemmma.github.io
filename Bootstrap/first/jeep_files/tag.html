@@ -1,0 +1,13 @@
+
+<!-- saved from url=(0050)https://fledge.teads.tv/v1/interest-group/tag.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript">
+      const interestGroups = [{"name":"test_fledge_teads","owner":"https://fledge.teads.tv","biddingLogicUrl":"/v1/bidding/bidding-logic.js","trustedBiddingSignalsKeys":["startDate","endDate"],"trustedBiddingSignalsUrl":"/v1/bidding/trusted-signals","dailyUpdateUrl":"/v1/interest-group/update","userBiddingSignals":{"test":"value"},"ads":[{"renderUrl":"/v1/render/ad?creative=https%3A%2F%2Fa.teads.tv%2Fvast%2Fpreview%2F816776%3FcreativeId%3D885626","metadata":{"test":"value"}},{"renderUrl":"/v1/render/ad?creative=https%3A%2F%2Fa.teads.tv%2Fvast%2Fpreview%2F528120%3FcreativeId%3D541166","metadata":{"test":"value"}}]}]
+
+      interestGroups.forEach(interestGroup => {
+        navigator.joinAdInterestGroup(interestGroup, 3600 * 24 * 30)
+      })
+    </script>
+  </head>
+  <body>
+</body></html>
